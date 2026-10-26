@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le Comptoir Conakry — Restaurant & Traiteur</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { slate: '#0f172a', teal: '#0d9488', cream: '#f8fafc' },
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <style>body { font-family: Inter, system-ui, sans-serif; }</style>
+</head>
+<body class="bg-cream text-slate-900">
+  <div class="bg-amber-100 text-amber-900 text-center text-sm py-2 px-4">
+    Mockup gratuit par Al-Falah Marketing — rien n’est en ligne sous votre nom.
+  </div>
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="font-bold text-xl text-slate-900">Le Comptoir</div>
+      <nav class="hidden md:flex gap-6 text-sm font-medium">
+        <a href="#menu" class="hover:text-teal">Menu</a>
+        <a href="#gallery" class="hover:text-teal">Galerie</a>
+        <a href="#contact" class="hover:text-teal">Contact</a>
+      </nav>
+      <a href="https://wa.me/224623578787" class="bg-teal text-white px-4 py-2 rounded-xl text-sm font-semibold">WhatsApp</a>
+    </div>
+  </header>
+  <section class="relative h-[70vh] min-h-[500px] flex items-end">
+    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1600&q=80" alt="Restaurant ambiance" class="absolute inset-0 w-full h-full object-cover">
+    <div class="absolute inset-0 bg-black/50"></div>
+    <div class="relative z-10 max-w-6xl mx-auto px-4 pb-12 text-white">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Le Comptoir Conakry</h1>
+      <p class="text-xl md:text-2xl mb-6 max-w-2xl">Cuisine 100% maison · Produits frais et locaux · Sur place & à emporter</p>
+      <div class="flex flex-wrap gap-4">
+        <a href="https://wa.me/224623578787?text=Bonjour%20Le%20Comptoir%2C%20je%20souhaite%20commander" class="bg-teal hover:bg-teal-700 text-white px-6 py-3 rounded-xl font-semibold">Commander sur WhatsApp</a>
+        <a href="tel:+224623578787" class="bg-white/20 backdrop-blur border border-white text-white px-6 py-3 rounded-xl font-semibold">Appeler</a>
+      </div>
+    </div>
+  </section>
+  <section class="bg-slate-900 text-white py-4 text-sm">
+    <div class="max-w-6xl mx-auto px-4 flex flex-wrap gap-6 justify-center">
+      <span>Laurel, MD · Al-Falah</span>
+      <span>Coyah / Conakry · Orange Money</span>
+      <span>Freetown · SLE</span>
+    </div>
+  </section>
+  <section id="menu" class="py-16 max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-8 text-center">Nos Spécialités</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80" alt="Grillades" class="h-48 w-full object-cover">
+        <div class="p-5">
+          <h3 class="font-bold text-xl mb-2">Grillades & Brochettes</h3>
+          <p class="text-slate-600">Viandes et poissons frais marinés, cuits au charbon.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=600&q=80" alt="Plats locaux" class="h-48 w-full object-cover">
+        <div class="p-5">
+          <h3 class="font-bold text-xl mb-2">Cuisine Locale</h3>
+          <p class="text-slate-600">Riz gras, sauce feuille, attiéké et plats du jour.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80" alt="Traiteur" class="h-48 w-full object-cover">
+        <div class="p-5">
+          <h3 class="font-bold text-xl mb-2">Service Traiteur</h3>
+          <p class="text-slate-600">Événements, entreprises, repas à emporter.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="gallery" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center">Ambiance</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=400&q=80" alt="Intérieur" class="rounded-xl h-40 w-full object-cover">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=400&q=80" alt="Plat" class="rounded-xl h-40 w-full object-cover">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80" alt="Salle" class="rounded-xl h-40 w-full object-cover">
+        <img src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?auto=format&fit=crop&w=400&q=80" alt="Service" class="rounded-xl h-40 w-full object-cover">
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="py-16 max-w-6xl mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold mb-4">Nous Contacter</h2>
+    <p class="text-lg mb-6">En face de la Cité Chemin de Fer, Kaloum, Conakry</p>
+    <a href="https://wa.me/224623578787" class="inline-block bg-teal text-white px-8 py-4 rounded-xl text-lg font-semibold">WhatsApp +224 623 57 87 87</a>
+  </section>
+  <footer class="bg-slate-900 text-slate-300 py-8 text-sm">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <p>Mockup professionnel par <a href="https://al-falahmarketing.com" class="text-teal underline">Al-Falah Marketing</a></p>
+      <p class="mt-2">Laurel, MD · Coyah · Freetown · info@al-falahmarketing.com · +1 240 280 6137</p>
+      <p class="mt-4 text-xs">Complémentaire mockup — rien n’est publié sous votre nom.</p>
+    </div>
+  </footer>
+  <div class="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t shadow-lg flex">
+    <a href="tel:+224623578787" class="flex-1 py-4 text-center font-semibold border-r">Appeler</a>
+    <a href="https://wa.me/224623578787" class="flex-1 py-4 text-center font-semibold bg-teal text-white">WhatsApp</a>
+  </div>
+</body>
+</html>
